@@ -1,0 +1,19 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "A simple calculator built using Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build":"electron-packager . --asar",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Archana Shetty",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^40.4.1"
+  },
+  "dependencies": {
+    "electron-packager": "^17.1.2"
+  }
+}
